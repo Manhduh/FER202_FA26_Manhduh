@@ -7,6 +7,7 @@ import StepCounter from './usereducer/StepCounter';
 import OrderTracker from './usereducer/OrderTracker';
 import KanbanBoard from './usereducer/KanbanBoard';
 import CourseWizard from './usereducer/CourseWizard';
+import NotesBoard from './usereducer/NotesBoard';
 
 function App() {
   const [key, setKey] = useState('b1');
@@ -26,6 +27,9 @@ function App() {
         </Tab>
         <Tab eventKey="b4" title="Bài 4: Course Wizard">
           <CourseWizard />
+        </Tab>
+        <Tab eventKey="b5" title="Bài 5: Notes Board (Undo/Redo)">
+          <NotesBoard />
         </Tab>
       </Tabs>
     </Container>
