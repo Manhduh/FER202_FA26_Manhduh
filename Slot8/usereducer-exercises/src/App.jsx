@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import StepCounter from './usereducer/StepCounter';
 import OrderTracker from './usereducer/OrderTracker';
 import KanbanBoard from './usereducer/KanbanBoard';
+import CourseWizard from './usereducer/CourseWizard';
 
 function App() {
   const [key, setKey] = useState('b1');
@@ -22,6 +23,9 @@ function App() {
         </Tab>
         <Tab eventKey="b3" title="Bài 3: Kanban Board">
           <KanbanBoard />
+        </Tab>
+        <Tab eventKey="b4" title="Bài 4: Course Wizard">
+          <CourseWizard />
         </Tab>
       </Tabs>
     </Container>
