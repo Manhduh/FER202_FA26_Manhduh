@@ -1,7 +1,7 @@
 
 import { Navbar, Nav, Container, Button, Card, Row, Col, ListGroup } from 'react-bootstrap';
 import { Routes, Route, Link, NavLink } from 'react-router-dom';
-
+import './App.css';
 const MENU = [
   { to: '/', label: 'Trang chủ' },
   { to: '/skills', label: 'Kỹ năng' },
