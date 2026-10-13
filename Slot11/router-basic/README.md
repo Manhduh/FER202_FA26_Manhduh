@@ -1,16 +1,28 @@
-# React + Vite
+# React Router - 5 bài tập FER202
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Ứng dụng React 19 + Vite + React-Bootstrap + React Router 7. Trang chủ hiển thị
+danh sách bài tập; mỗi bài dùng một namespace riêng để có thể truy cập đồng thời.
 
-Currently, two official plugins are available:
+## Chạy ứng dụng
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Các bài tập
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Bài | Nội dung | Đường dẫn |
+| --- | --- | --- |
+| 1 | Portfolio cá nhân, điều hướng active và trang 404 | `/bai1` |
+| 2 | Thư viện FPT, layout và route lồng nhau | `/bai2` |
+| 3 | Danh sách môn học và trang chi tiết theo mã | `/bai3` |
+| 4 | Đăng ký sự kiện và điều hướng kèm state | `/bai4` |
+| 5 | Danh bạ sinh viên, tìm kiếm và lọc bằng query string | `/bai5` |
 
-## Expanding the Oxlint configuration
+Các lệnh kiểm tra:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+npm run lint
+npm run build
+```

@@ -4,6 +4,7 @@ import Exercise1 from './exercises/Exercise1.jsx';
 import Exercise2 from './exercises/Exercise2.jsx';
 import Exercise3 from './exercises/Exercise3.jsx';
 import Exercise4 from './exercises/Exercise4.jsx';
+import Exercise5 from './exercises/Exercise5.jsx';
 
 const EXERCISES = [
   { number: 1, title: 'Portfolio cá nhân', description: 'Routes, NavLink và trang 404.' },
@@ -57,6 +58,7 @@ function App() {
       <Route path="/bai2/*" element={<Exercise2 />} />
       <Route path="/bai3/*" element={<Exercise3 />} />
       <Route path="/bai4/*" element={<Exercise4 />} />
+      <Route path="/bai5/*" element={<Exercise5 />} />
       <Route path="*" element={<ExerciseDirectory />} />
     </Routes>
   );
