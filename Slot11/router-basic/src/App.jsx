@@ -1,6 +1,7 @@
 import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import { Link, Route, Routes } from 'react-router-dom';
 import Exercise1 from './exercises/Exercise1.jsx';
+import Exercise2 from './exercises/Exercise2.jsx';
 
 const EXERCISES = [
   { number: 1, title: 'Portfolio cá nhân', description: 'Routes, NavLink và trang 404.' },
@@ -51,6 +52,7 @@ function App() {
     <Routes>
       <Route path="/" element={<ExerciseDirectory />} />
       <Route path="/bai1/*" element={<Exercise1 />} />
+      <Route path="/bai2/*" element={<Exercise2 />} />
       <Route path="*" element={<ExerciseDirectory />} />
     </Routes>
   );
