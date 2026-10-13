@@ -120,7 +120,7 @@ function NotFoundPage() {
 function Exercise2() {
   return (
     <Routes>
-      <Route path="/bai2" element={<MainLayout />}>
+      <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path="books" element={<BooksPage />} />
         <Route path="help" element={<HelpLayout />}>

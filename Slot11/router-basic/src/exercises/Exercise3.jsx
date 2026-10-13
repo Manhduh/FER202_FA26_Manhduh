@@ -67,9 +67,9 @@ function CourseDetailPage() {
 function Exercise3() {
   return (
     <Routes>
-      <Route path="/bai3" element={<Navigate to={`${BASE}/courses`} replace />} />
-      <Route path="/bai3/courses" element={<CourseListPage />} />
-      <Route path="/bai3/courses/:code" element={<CourseDetailPage />} />
+      <Route path="/" element={<Navigate to={`${BASE}/courses`} replace />} />
+      <Route path="courses" element={<CourseListPage />} />
+      <Route path="courses/:code" element={<CourseDetailPage />} />
       <Route path="*" element={<Navigate to={`${BASE}/courses`} replace />} />
     </Routes>
   );

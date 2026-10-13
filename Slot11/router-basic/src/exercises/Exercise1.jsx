@@ -135,10 +135,10 @@ function Exercise1() {
       <AppNavbar />
       <main>
         <Routes>
-          <Route path="/bai1" element={<HomePage />} />
-          <Route path="/bai1/skills" element={<SkillsPage />} />
-          <Route path="/bai1/projects" element={<ProjectsPage />} />
-          <Route path="/bai1/contact" element={<ContactPage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="skills" element={<SkillsPage />} />
+          <Route path="projects" element={<ProjectsPage />} />
+          <Route path="contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>

@@ -139,9 +139,9 @@ function SuccessPage() {
 function Exercise4() {
   return (
     <Routes>
-      <Route path="/bai4" element={<EventPage />} />
-      <Route path="/bai4/register" element={<RegisterPage />} />
-      <Route path="/bai4/success" element={<SuccessPage />} />
+      <Route path="/" element={<EventPage />} />
+      <Route path="register" element={<RegisterPage />} />
+      <Route path="success" element={<SuccessPage />} />
       <Route path="*" element={<Navigate to={BASE} replace />} />
     </Routes>
   );
