@@ -1,28 +1,21 @@
-
 const banners = [
   {
     id: 1,
-    image:
-      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1400&q=80",
-    title: "Modern Laptop",
-    description:
-      "Discover modern laptops with elegant designs and powerful performance."
+    image: 'https://tse3.mm.bing.net/th/id/OIP.BgZs0peVQ-t4vnYk40qeFQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+    title: 'xin chaoooo ',
+    description: 'Chào mừng bạn đến với lãnh dịa của tôi .'
   },
   {
     id: 2,
-    image:
-      "https://cellphones.com.vn/sforum/wp-content/uploads/2024/01/anh-meme-52.jpg",
-    title: "MEW MEW  for Work",
-    description:
-      "Improve your productivity with laptops for work and programming."
+    image: 'https://tse1.mm.bing.net/th/id/OIF.zwhPZjax9gtH3ZLDTpHmaA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
+    title: 'About Us',
+    description: 'Tìm hiểu thông tin về website và các chức năng.'
   },
   {
     id: 3,
-    image:
-      "https://th.bing.com/th/id/OIP.ua23lmurwPPGGMJuXRoLUAHaHa?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
-    title: "Laptop Technology",
-    description:
-      "WEW WEW ."
+    image: 'https://wallpapercave.com/wp/wp12398313.jpg',
+    title: 'Explore Our Pages',
+    description: 'Khám phá các trang Home, About, New và Contact.'
   }
 ];
 
