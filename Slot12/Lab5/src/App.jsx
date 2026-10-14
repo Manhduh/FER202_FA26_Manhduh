@@ -1,6 +1,9 @@
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
+import AppNavbar from "./components/Navbar";
+import MyCarousel from "./components/MyCarousel";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import New from "./pages/New";
@@ -9,7 +12,9 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+      <AppNavbar />
+
+      <MyCarousel />
 
       <Routes>
         <Route path="/" element={<Home />} />
