@@ -1,4 +1,4 @@
-import AxiosDemo from './components/AxiosDemo';
+import PostList from './components/PostList';
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
         DemoAxios
       </h1>
 
-      <AxiosDemo />
+      <PostList />
     </div>
   );
 }
