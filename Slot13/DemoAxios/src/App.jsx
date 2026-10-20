@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import PostList from './components/PostList';
 import CreatePost from './components/CreatePost';
 import UpdatePost from './components/UpdatePost';
+import PatchPost from './components/PatchPost';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
 
         <div className="demo-section">
           <UpdatePost />
+        </div>
+
+        <div className="demo-section">
+          <PatchPost />
         </div>
       </div>
     </div>
