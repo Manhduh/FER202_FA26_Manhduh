@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import PostList from './components/PostList';
@@ -6,6 +6,7 @@ import CreatePost from './components/CreatePost';
 import UpdatePost from './components/UpdatePost';
 import PatchPost from './components/PatchPost';
 import DeletePost from './components/DeletePost';
+import RequestConfig from './components/RequestConfig';
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
 
         <div className="demo-section">
           <DeletePost />
+        </div>
+
+        <div className="demo-section">
+          <RequestConfig />
         </div>
       </div>
     </div>
