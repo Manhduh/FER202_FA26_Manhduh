@@ -1,13 +1,23 @@
+﻿import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import PostList from './components/PostList';
+import CreatePost from './components/CreatePost';
 
 function App() {
   return (
-    <div className="container py-4">
-      <h1 className="text-center text-success mb-4">
-        DemoAxios
-      </h1>
+    <div className="app-wrapper">
+      <div className="container py-4">
+        <h1 className="text-center mb-4">DemoAxios</h1>
 
-      <PostList />
+        <div className="demo-section">
+          <PostList />
+        </div>
+
+        <div className="demo-section">
+          <CreatePost />
+        </div>
+      </div>
     </div>
   );
 }
