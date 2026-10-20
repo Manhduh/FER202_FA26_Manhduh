@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import PostList from './components/PostList';
 import CreatePost from './components/CreatePost';
+import UpdatePost from './components/UpdatePost';
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
 
         <div className="demo-section">
           <CreatePost />
+        </div>
+
+        <div className="demo-section">
+          <UpdatePost />
         </div>
       </div>
     </div>
