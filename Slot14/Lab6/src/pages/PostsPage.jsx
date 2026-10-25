@@ -31,12 +31,12 @@ export default function PostsPage() {
   const [keyword, setKeyword] = useState(q);
   const debounced = useDebounce(keyword.trim(), 500);
 
-  // bulk delete omitted
+  const [selectedIds, setSelectedIds] = useState([]);
   const [removed, setRemoved] = useState(0);
-  
-  
-  
-  
+  const [toDelete, setToDelete] = useState(null);
+  const [confirmBulk, setConfirmBulk] = useState(false);
+  const [bulkDeleting, setBulkDeleting] = useState(false);
+  const [deletingId, setDeletingId] = useState(null);
 
   const { data: users } = useAxios(
     (signal) => userApi.getAll(signal),
